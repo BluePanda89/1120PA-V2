@@ -1,0 +1,24 @@
+{
+  "name": "1120pa-v2",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/ts-plugin": "^1.10.6",
+    "@shikijs/langs": "^3.20.0",
+    "@shikijs/transformers": "^3.20.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/aos": "^3.0.7",
+    "aos": "^2.3.4",
+    "astro": "^5.16.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}

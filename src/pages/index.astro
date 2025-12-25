@@ -1,0 +1,23 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Hero from '@components/Hero.astro';
+import Facilities from '@components/Facilities.astro';
+import tailwindcss from '@tailwindcss/vite';
+---
+
+<Layout title="Welcome Home">
+	<Hero />
+	
+	<section class="py-20 bg-slate-50 border-y border-slate-200">
+		<div class="container mx-auto px-6 text-center" data-aos="fade-up">
+			<span class="text-blue-600 font-semibold tracking-widest uppercase text-xs">Community First</span>
+			<h2 class="text-3xl md:text-4xl font-bold text-slate-800 mt-2 mb-6">A Vibrant Community in PJ South</h2>
+			<p class="text-slate-600 max-w-3xl mx-auto leading-relaxed text-lg">
+				Spread across 12 acres of prime land in Taman Petaling Utama, 1120 Park Avenue features 
+				5 residential blocks with 1,120 units, offering a balance of urban convenience and resort-style living.
+			</p>
+		</div>
+	</section>
+
+	<Facilities />
+</Layout>
